@@ -60,8 +60,8 @@ pip install numpy matplotlib pillow
 ### Original Image
 ![Original Image](./image.png)
 
-### Compressed Image (50 Singular Values)
-![Compressed Image](./outputs/compressed_image_100k.pn)
+### Compressed Image (100 Singular Values)
+![Compressed Image](./outputs/compressed_image_100k.png)
 
 ---
 
@@ -83,7 +83,7 @@ pip install numpy matplotlib pillow
 svd-image-compression/
 |-- image.png          # Example input image
 |-- svd_v2.py       # Main script
-|-- output/
+|-- outputs/
     |-- compressed_image_100k.png # Output compressed image
 |-- README.md                # Documentation
 ```
