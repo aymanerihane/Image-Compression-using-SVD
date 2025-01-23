@@ -43,7 +43,7 @@ pip install numpy matplotlib pillow
 
 ## Usage
 
-1. Place your image file in the project directory (e.g., `image.jpg`).
+1. Place your image file in the project directory (e.g., `image.png`).
 2. Run the script:
    ```bash
    python svd_compression.py
@@ -58,10 +58,10 @@ pip install numpy matplotlib pillow
 ## Example
 
 ### Original Image
-![Original Image](./image.jpg)
+![Original Image](./image.png)
 
 ### Compressed Image (50 Singular Values)
-![Compressed Image](./outputs/compressed_image_100k.jpg)
+![Compressed Image](./outputs/compressed_image_100k.pn)
 
 ---
 
@@ -81,10 +81,10 @@ pip install numpy matplotlib pillow
 
 ```
 svd-image-compression/
-|-- image.jpg          # Example input image
+|-- image.png          # Example input image
 |-- svd_v2.py       # Main script
 |-- output/
-    |-- compressed_image_100k.jpg # Output compressed image
+    |-- compressed_image_100k.png # Output compressed image
 |-- README.md                # Documentation
 ```
 
